@@ -5,7 +5,7 @@ using PolygonApp.Services;
 namespace PolygonApp.Controllers
 {
     [Controller]
-    [Route("/map/[controller]")]
+    [Route("/map")]
     public class PolygonController: Controller
     {
         private readonly PolygonService _polygonService;
